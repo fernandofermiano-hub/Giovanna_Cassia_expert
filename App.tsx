@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { EXPERT_DATA, IMAGES } from './constants';
-import Button from './components/Button';
-import Lightbox from './components/Lightbox';
+import { EXPERT_DATA, IMAGES } from './constants.ts';
+import Button from './components/Button.tsx';
+import Lightbox from './components/Lightbox.tsx';
 
 const App: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { EXPERT_DATA } from '../constants';
+import { EXPERT_DATA } from '../constants.ts';
 
 interface ButtonProps {
   text: string;
